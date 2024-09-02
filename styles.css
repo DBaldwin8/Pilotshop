@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto;
+}
+
+/* COMMENTS */
+
+nav {
+    background-color: rgb(234, 234, 234);
+    height: 35px;
+}
+
+nav>div {
+    padding-top: 0.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+}
+
+.button-border-none button{
+    border: none;
+}
+
+header>div{
+    height: 100px;
+    margin: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pop {
+    position: absolute;
+    left: 54%;
+    bottom: 91% 
+}
+
+div #background {
+    width: 100%;
+}
+
+.image-ab{
+    position: absolute;
+    top: 175px;
+    left: 30%;
+}
+
+.head-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.head-text h1,
+.head-text p,
+.head-text button {
+    display: flex;
+    align-self: center;
+    
+}
+
+.text-white {
+    color: white;
+}
+
+.head-text button {
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    border: 2px white solid;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 37pt;
+    margin-bottom: 0;
+    letter-spacing: 0.25rem;
+    font-weight: 420;
+}
+
+.head-text p {
+    margin-top: 0px;
+}
+
+.boxes {
+    border: red solid;
+    position: absolute;
+    display: flex;
+    top: 400px;
+}
+
+.boxes div {
+    background-color: white;
+    border: green solid;
+    height: 150px;
+    width: 250px;
+    margin: 20px;
+}
