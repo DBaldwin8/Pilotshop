@@ -97,12 +97,17 @@ h1 {
     position: absolute;
     display: flex;
     top: 400px;
+    width: 100%;
+    justify-content: center;
 }
 
 .boxes div {
-    background-color: white;
     border: green solid;
     height: 150px;
-    width: 250px;
+    width: 230px;
     margin: 20px;
+}
+
+.background-dark-grey {
+   background-color: rgb(38, 38, 38); 
 }
